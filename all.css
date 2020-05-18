@@ -27,19 +27,32 @@ body {
 }
 .para{
    
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
+    padding: 1em;
+
 }
-.para a{
+.para1 a{
+  color: blue;
+    
+}
+.para1{
+    font-size: 16px;
+    
+}
+.wiki{
     color: black;
     background: skyblue;
     border: solid skyblue;
     border-radius: 5px;
+   
 }
-
+.para2{
+    padding: 3em;
+}
 @media (max-width :800px){
     .container img{
-        width: 70%;
+        width: 300px;
         bottom: 3px;
     }
 }
