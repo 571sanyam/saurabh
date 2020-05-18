@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color:white;
+}
+
+.header{
+    padding: 8em;
+    margin: auto;
+}
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    width: 20%;
+    bottom: 3px;
+
+}
+.para{
+   
+    font-size: 18px;
+    font-weight: bold;
+}
+.para a{
+    color: black;
+    background: skyblue;
+    border: solid skyblue;
+    border-radius: 5px;
+}
+
+@media (max-width :800px){
+    .container img{
+        width: 70%;
+        bottom: 3px;
+    }
+}
